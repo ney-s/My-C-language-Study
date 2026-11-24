@@ -1,7 +1,7 @@
 /*逻辑运算
 ! 逻辑非, !a,结果 如果a是true那么就是false
 && 逻辑与,a&&b,如果a和b都是true，结果就是true，否则就是false
-|| 逻辑与，a||b,如果a和b有一个是true那么结果就是true，两个都是false那么都是false
+|| 逻辑或，a||b,如果a和b有一个是true那么结果就是true，两个都是false那么都是false
 优先级 !>&&>||*/
 
 /*运算符优先级
@@ -30,3 +30,4 @@ int main(void)
 	return 0;
 	
 } 
+// 逻辑运算时，不要把赋值包括复合赋值组合进表达式   
